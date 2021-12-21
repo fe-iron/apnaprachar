@@ -1,0 +1,336 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Source Serif Pro', serif;
+}
+
+
+
+
+
+
+/*graphic-design css starts */
+
+
+.garphics_banner {
+    background-image: linear-gradient( 
+90deg, rgb(75 101 136) 0%, rgb(136 163 197) 35%, rgb(75 101 135) 100%);
+}
+
+
+.garphics_banner h2{
+    font-size: 2rem;
+}
+
+
+
+
+.garphics_banner .row{
+    padding: 5rem 0rem;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.tab-content .card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fcfdff;
+    background-color: #4b6587;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+
+.nav-tabs .nav-link {
+    border: 1px solid #0000001f;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    color: #585858;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: .5px;
+    margin: 0px 5px 5px 0px;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #dee2e6;
+    background-color: #4b6587;
+    color: white;
+    transition: .5s;
+}
+
+
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
+
+
+.fb-inner-content .card ul li a, 
+.insta-inner-content .card ul li a, 
+.yout-inner-content .card ul li a,
+.twit-inner-content .card ul li a,
+.linked-inner-content .card ul li a{
+    
+    padding: 3px 0px;
+    color: #656767;
+    cursor: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing:;
+}
+
+
+
+.fb-inner-content .card .fa-check-circle:before,
+.insta-inner-content .card .fa-check-circle:before,
+.yout-inner-content .card .fa-check-circle:before,
+.twit-inner-content .card .fa-check-circle:before,
+.linked-inner-content .card .fa-check-circle:before {
+    content: "\f058";
+    margin-right: 8px;
+}
+
+/*.fb-inner-content .card .nav-pills .nav-link {
+    border-radius: 0rem;
+    margin: 5px;
+    padding: 0px
+    color: white;
+    background-color: #555555;
+    }*/
+
+
+    .garphics_content .fa-check:before {
+        content: "\f00c";
+        font-size: 13px;
+        padding-right: 6px;
+    }
+
+
+    .garphics_content .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0rem;
+}
+
+
+  .garphics_content .card form{
+    margin: 1rem;
+  }
+
+
+ .btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    border-radius: 0rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.garphics_content label{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+}
+
+
+.garphics_content .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 10px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+::placeholder{
+
+    font-family: 'Merriweather', serif;
+
+}
+
+
+
+
+/*media-query*/
+
+
+@media( max-width: 700px){
+
+    .nav-pills  {
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+    justify-content: center;
+    border: 0rem;
+    
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    border-radius: 0rem;
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fb-inner-content h5,
+.insta-inner-content h5,
+.yout-inner-content h5,
+.twit-inner-content h5, 
+.linked-inner-content h5{
+
+     font-size: 1rem;
+}
+
+
+.fb-inner-content .card p, 
+.insta-inner-content .card p, 
+.yout-inner-content .card p,
+.twit-inner-content .card p,
+.linked-inner-content .card p {
+
+    font-size: 13px;
+}
+
+
+.nav-pills {
+    margin-bottom: 1rem;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0rem;
+    color: black;
+    font-family: 'Merriweather', serif;
+    border: 1px solid #e4e4e4;
+    padding: 0.6rem 1.2rem;
+    font-size: 14px;
+}
+
+
+.garphics_banner h2{
+    font-size: 1.2rem;
+}
+
+
+.garphics_banner p{
+    font-size: 12px;
+}
+
+.garphics_banner .row{
+    padding: 3rem 1rem;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+
+}
+
+
+@media(max-width: 576px){
+
+.garphics_content .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .8rem;
+    font-weight: 400;
+     font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+::placeholder{
+
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+@media( max-width: 450px){
+    
+    .nav-pills .nav-link {
+    border-radius: 0rem;
+    color: black;
+    font-family: 'Merriweather', serif;
+    border: 1px solid #e4e4e4;
+    padding: 0.6rem 1.4rem!important;
+    font-size: 12px!important;
+}   
+
+
+.fb-inner-content  .btn-dark, 
+.insta-inner-content  .btn-dark, 
+.yout-inner-content  .btn-dark,
+.twit-inner-content  .btn-dark,
+.linked-inner-content  .btn-dark{
+  font-size: 12px;
+  display: inline-block;
+}
+
+.tab-content .card-header{
+    padding: .75rem .8rem!important;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
